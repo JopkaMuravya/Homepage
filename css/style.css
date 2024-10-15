@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* intro */
+.intro {
+    background: url(../img/back_proj.png);
+    width: 100%;
+    height: 100vh;
+}
+
+.intro_text{
+    margin: 0;
+    padding-top: 15%;
+    font-family: 'Rubik Dirt', sans-serif;
+    font-size: 200px;
+    text-align: center;
+}
+
+/* main_str */
+.main_str {
+    background: url(../img/back_proj.png);
+    width: 100%;
+    height: 100%;
+}
+
+.title_str {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.main_str_body {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.info_pole {
+    width: 600px;
+    border-left: solid; 
+}
+
+.topic_theme {
+    margin: 0;
+    font-family: 'Rubik Dirt', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topic_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic_text {
+    padding-left: 15px;
+    font-family: 'LXGW WenKai Mono TC', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.topic_img {
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 50px;
+}
