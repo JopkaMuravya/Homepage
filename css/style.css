@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    min-width: 700px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,8 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 /* intro */
 .intro {
     background: url(../img/back_proj.png);
+    background-size: cover;
     width: 100%;
     height: 100vh;
+    min-height: 550px;
 }
 
 .intro_text{
@@ -24,8 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 /* main_str */
 .main_str {
     background: url(../img/back_proj.png);
+    background-size: cover;
     width: 100%;
     height: 100%;
+    
 }
 
 .title_str {
@@ -71,4 +76,41 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 300px;
     max-height: 300px;
     padding-left: 50px;
+    padding-right: 10px;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 1481px) {
+    .razdel {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main_str_body {
+        display:inline-block;
+    }
+}
+
+@media (max-width: 1207px) {
+    .intro_text {
+        font-size: 150px; 
+    }
+    .razdel {
+        display: grid;
+        justify-content: center;
+    }
+    .info_pole {
+        border-right: solid;
+    }
+}
+
+@media (max-width: 962px) {
+    .intro_text {
+        font-size: 125px; 
+    }
+}
+
+@media (max-width: 802px) {
+    .intro_text {
+        font-size: 100px; 
+    }
 }
