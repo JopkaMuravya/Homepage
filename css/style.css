@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik Dirt', sans-serif;
     font-size: 200px;
     text-align: center;
+    cursor: default;
 }
 
 /* main_str */
@@ -39,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Great Vibes', sans-serif;
     font-size: 100px;
     text-align: center;
+    cursor: default;
 }
 
 .main_str_body {
@@ -58,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
+    cursor: default;
 }
 
 .topic_body {
@@ -70,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'LXGW WenKai Mono TC', sans-serif;
     font-size: 25px;
     text-align: justify;
+    cursor: default;
 }
 
 .topic_img {
@@ -78,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 50px;
     padding-right: 10px;
     mix-blend-mode: multiply;
+    cursor: default;
 }
 
 @media (max-width: 1481px) {
